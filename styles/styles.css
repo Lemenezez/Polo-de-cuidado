@@ -1,0 +1,54 @@
+@import url("reset.css");
+@import url("header_styles.css");
+@import url("banners_styles.css");
+@import url("categorias_styles.css");
+@import url("sobre_styles.css");
+@import url("agenda_styles.css");
+@import url("footer_styles.css");
+
+/*DADOS BASE*/
+:root{
+    /*CORES*/
+    --Cor_-_Preto: #000000;
+    --Cor_-_Branco: #FFFFFF;
+    --amarelo: #FFC756;
+    --vermelho: #F33838;
+    --lilas: #7F8FFE;
+    --verde: #56B78C;
+    --azul: #689B9E;
+    --amarelo-claro: #FEDE9F;
+    --roxo--claro:#BDC6FF;
+    --vermelho-claro: #FFB0B0;
+    --verde-claro:#ACC6C1;
+    /*FONTES*/
+    --Fonte_-_Titulos: 'Noto Serif', serif;
+    --Fonte_-_Textos:  'Merriweather', serif ;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--Fonte_-_Textos);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Cor_-_Preto);
+    height: 100vh;
+}
+
+main{
+    margin: 0 1.5em;
+}
+
+@media screen and (min-width: 720px){
+    main{
+        margin: 0 2.5em;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    main{
+        margin: 0 7.5em;
+    }
+}

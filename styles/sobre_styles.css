@@ -1,0 +1,104 @@
+/* Sobre */
+.sobre {
+  margin-top: 1.6rem;
+  background-color: #f6fdff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sobre__titulo, .objetivo__titulo {
+  margin: 0 10px 15px;
+  font-size: 20px;
+  font-family: var(--Fonte_-_Titulos);
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.paragrafos p {
+  font-size: 18px;
+  font-family: var(--Fonte_-_Textos);
+  margin: 1em 10px 0.5em;
+  text-align: justify;
+  line-height: 1.6;
+  color: #000;
+}
+
+.lista__objetivo {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px;
+}
+
+.lista__objetivo li {
+  font-size: 18px;
+  font-family: var(--Fonte_-_Textos);
+  margin: 0.8rem 0;
+  text-align: justify;
+  line-height: 1.6;
+  color: #000;
+  position: relative;
+  padding-left: 15px;
+}
+
+.lista__objetivo li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #0048ff;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+@media (min-width: 720px) and (max-width: 1019px) {
+  .sobre {
+      padding: 20px; 
+  }
+
+  .sobre__titulo, .objetivo__titulo {
+      font-size: 22px; 
+      margin: 0 10px 15px; 
+  }
+
+  .paragrafos p {
+      font-size: 17px;
+      margin: 1em 10px; 
+  }
+
+  .lista__objetivo li {
+      font-size: 17px; 
+      padding-left: 15px; 
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1919px) {
+  .sobre {
+      padding: 40px; 
+  }
+
+  .sobre__titulo, .objetivo__titulo {
+      font-size: 28px; 
+      margin: 0 20px 20px; 
+  }
+
+  .paragrafos p {
+      font-size: 22px; 
+      margin: 1.5em 20px; 
+      line-height: 1.6; 
+  }
+
+  .lista__objetivo {
+      padding-left: 20px; 
+  }
+
+  .lista__objetivo li {
+      font-size: 22px; 
+  }
+
+  .lista__objetivo li::before{
+    padding: 4px;
+  }
+}

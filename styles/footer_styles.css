@@ -1,0 +1,155 @@
+.rodape {
+  background-color: #F5FCFE;
+  color: #000;
+  padding: 1.5rem 0.5rem;
+  font-family: var(--Fonte_-_Textos);
+}
+
+.rodape__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.rodape__logos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.logo_polo{
+  width: 100px;
+  height: auto;
+}
+
+.logo_unb{
+  margin-top: .5rem;
+  width: 200px;
+  height: 40px;
+}
+
+.rodape__conteudo {
+  max-width: 600px;
+}
+
+.rodape__titulo {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.icones {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icones img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icones img:hover {
+  transform: scale(1.1);
+}
+
+.rodape__links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+
+.rodape__links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.rodape__links a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.rodape__p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (min-width: 720px) and (max-width: 1019px)  {
+  .rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .rodape__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .rodape__logos,
+  .rodape__conteudo,
+  .rodape__redes {
+    margin-bottom: 1rem;
+    flex: 1;
+  }
+
+  .rodape__logos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .rodape__links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .icones {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .rodape__p {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+
+@media (min-width: 1020px) and (max-width: 1919px){
+
+  .rodape__container {
+    flex-direction: row;
+    justify-content: space-between; /* Distribui espaço uniformemente entre os elementos */
+    padding: 0 2rem; /* Ajuste de padding para garantir que não fique muito próximo das bordas */
+  }
+
+  .rodape__logos {
+    margin-top: 2rem; /* Ajuste na margem superior */
+    padding-left: 3rem; /* Ajuste no padding à esquerda */
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .rodape__redes {
+    padding-top: 2rem; /* Ajuste no padding superior */
+    margin-right: 5rem; /* Ajuste na margem direita */
+  }
+
+  .rodape__conteudo {
+    margin-top: 2rem; /* Ajuste na margem superior */ /* Ajuste na margem direita */
+    text-align: center;
+    max-width: 50%; /* Limita a largura do conteúdo para melhorar a legibilidade */
+  }
+}
