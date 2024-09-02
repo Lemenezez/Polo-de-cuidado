@@ -49,8 +49,8 @@
     width: 80px; 
 }
 
-.cabecalho__links a {
-    font-size: 16px; 
+.cabecalho__links {
+    display: none;
 }
 
 }
@@ -63,8 +63,8 @@
       width: 100%;
   }
 
-  .cabecalho__links a {
-    font-size: 20px; 
+  .cabecalho__links {
+    display: none;
 }
   .cabecalho_titulo{
       order: 0;
