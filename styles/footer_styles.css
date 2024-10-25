@@ -1,7 +1,7 @@
 .rodape {
-  background-color: #F5FCFE;
-  color: #000;
-  padding: 1.5rem 0.5rem;
+  background-color: #9f5858;
+  color: #ffff;
+  padding: 1rem 0.5rem;
   font-family: var(--Fonte_-_Textos);
 }
 
@@ -20,14 +20,14 @@
 }
 
 .logo_polo{
-  width: 100px;
+  width: 50px;
   height: auto;
 }
 
 .logo_unb{
   margin-top: .5rem;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 30px;
 }
 
 .rodape__conteudo {
@@ -64,7 +64,7 @@
 
 
 .rodape__links a {
-  color: #000;
+  color: #ffff;
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.3s ease-in-out;
@@ -72,7 +72,7 @@
 
 .rodape__links a:hover {
   text-decoration: underline;
-  color: blue;
+  color: #a97045;
 }
 
 .rodape__p {

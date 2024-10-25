@@ -1,5 +1,9 @@
 /* AGENDA */
 
+#agenda {
+  padding: 1rem 0.5rem;
+}
+
 .agenda_titulo {
   margin-top: 1rem;
   margin-bottom: 0.5rem;

@@ -2,7 +2,7 @@
 
 .cabecalho_menu{
   width: 100vw;
-  background-color: #F5FCFE;
+  background-color: #9f5858;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -24,7 +24,7 @@
 }
 
 .cabecalho__links a {
-  color: #000;
+  color: #ffff;
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -32,7 +32,7 @@
 .cabecalho__links a:hover {
   text-decoration: underline;
   font-size: 1rem; 
-  color: blue;
+  color: #a97045;
 }
 
 @media (min-width: 720px) and (max-width: 1019px){
