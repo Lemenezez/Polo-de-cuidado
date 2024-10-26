@@ -4,7 +4,7 @@
   background-color: hsla(26, 20%, 49%, 0.677);
   border-radius: 8px;
   padding: 15px;
-  box-shadow: 0 4px 8px #ffff;
+  box-shadow: 0 4px 8px #9f5858b5;
 }
 
 .sobre__titulo, .objetivo__titulo {
@@ -14,7 +14,7 @@
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #9F5858;
   padding-bottom: 5px;
 }
 
@@ -48,7 +48,8 @@
   content: "\2022";
   position: absolute;
   left: 0;
-  color: hwb(0 32% 40%);
+  margin-top: 3.5px;
+  color: #9F5858;
   font-size: 1.2rem;
   line-height: 1;
 }

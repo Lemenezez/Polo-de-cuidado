@@ -47,22 +47,22 @@
 }
 
 .categorias_item:nth-child(1){
-    background-color: var(--amarelo);
+    background-color: var(--Cor_-_Marron-escuro);
 }
 
 .categorias_item:nth-child(2) {
-    background-color: var(--vermelho);
+    background-color: var(--Cor_-_Marron-claro);
 }
 
 .categorias_item:nth-child(3) {
-    background-color: var(--lilas);
+    background-color: var(--Cor_-_Marron-escuro);
 }
 
 .categorias_item:nth-child(4) {
-    background-color: var(--verde);
+    background-color: var(--Cor_-_Marron-claro);
 }
 .categorias_item:nth-child(5) {
-    background-color: var(--azul);
+    background-color: var(--Cor_-_Marron-escuro);
 }
 .destaques{
     display: flex;

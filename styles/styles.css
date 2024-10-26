@@ -11,7 +11,9 @@
     /*CORES*/
     --Cor_-_Preto: #000000;
     --Cor_-_Branco: #FFFFFF;
-    --amarelo: #FFC756;
+    --Cor_-_Marron-claro: #A57045;
+    --Cor_-_Marron-escuro: #49321F;
+    /* --amarelo: #FFC756;
     --vermelho: #F33838;
     --lilas: #7F8FFE;
     --verde: #56B78C;
@@ -19,7 +21,7 @@
     --amarelo-claro: #FEDE9F;
     --roxo--claro:#BDC6FF;
     --vermelho-claro: #FFB0B0;
-    --verde-claro:#ACC6C1;
+    --verde-claro:#ACC6C1; */
     /*FONTES*/
     --Fonte_-_Titulos: 'Noto Serif', serif;
     --Fonte_-_Textos:  'Merriweather', serif ;

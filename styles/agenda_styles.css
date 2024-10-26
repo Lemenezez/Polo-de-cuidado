@@ -46,44 +46,44 @@
 }
 
 .agenda_item:nth-child(1) .agenda_informacoes {
-  background-color: var(--amarelo);
+  background-color: var(--Cor_-_Marron-escuro);
 }
 
 .agenda_item:nth-child(2) .agenda_informacoes {
-  background-color: var(--verde);
+  background-color: var(--Cor_-_Marron-escuro);
 }
 
 .agenda_item:nth-child(3) .agenda_informacoes {
-  background-color: var(--lilas);
+  background-color: var(--Cor_-_Marron-escuro);
 }
 
 .agenda_item:nth-child(4) .agenda_informacoes {
-  background-color: var(--azul);
+  background-color: var(--Cor_-_Marron-escuro);
 }
 .agenda_item:nth-child(5) .agenda_informacoes {
-  background-color: var(--amarelo);
+  background-color: var(--Cor_-_Marron-escuro);
 }
 .agenda_item:nth-child(6) .agenda_informacoes {
-  background-color: var(--verde);
+  background-color: var(--Cor_-_Marron-escuro);
 }
 
 
 .agenda_item:nth-child(4) {
-  background-color: var(--verde-claro);
+  background-color: var(--Cor_-_Marron-claro);
 }
 
 .agenda_item:nth-child(1),
 .agenda_item:nth-child(5) {
-  background-color: var(--amarelo-claro);
+  background-color: var(--Cor_-_Marron-claro);
 }
 
 .agenda_item:nth-child(3) {
-  background-color: var(--roxo--claro);
+  background-color: var(--Cor_-_Marron-claro);
 }
 
 .agenda_item:nth-child(2),
 .agenda_item:nth-child(6) {
-  background-color: #AADBC5;
+  background-color: var(--Cor_-_Marron-claro);
 }
 
 .agenda_informacoes h4,
@@ -178,7 +178,7 @@
   }
 
   .agenda_atracao h3 {
-    font-size: 17px;
+    font-size: 20px;
   }
   .agenda_informacoes{
     width: 130px;
