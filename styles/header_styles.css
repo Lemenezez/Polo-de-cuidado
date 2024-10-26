@@ -2,7 +2,7 @@
 
 .cabecalho_menu{
   width: 100vw;
-  background-color: var(--Cor_-_Marron-claro);
+  background-color: #977b64;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
